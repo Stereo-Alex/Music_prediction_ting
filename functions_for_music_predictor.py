@@ -4,9 +4,6 @@ from IPython.display import Javascript
 import pandas as pd
 
 
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id="e26d827f9576498aa19af5b0a3c969e5",
-    client_secret="2858287de92143de86436364c2ab4d09"))
 
 ##################Part 1, conecting to the api and dowloading the data frames##############
 #### Takes user input: (only works with the numerical part of the link or the uri)
